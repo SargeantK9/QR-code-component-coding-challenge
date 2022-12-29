@@ -7,6 +7,8 @@ body {
   font-family: "Outfit", sans-serif;
   min-height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box {
@@ -14,17 +16,16 @@ body {
   border-radius: 3%;
   background-color: white;
   height: auto;
-  margin: auto;
-  position: relative;
 }
 
 .box img {
+  max-width: 360px;
   border-radius: 3%;
   margin: 5%;
   width: 90%;
 }
 
-h2 {
+h1 {
   font-weight: 700;
   display: inline-block;
   margin: 5% 10% 0 10%;
