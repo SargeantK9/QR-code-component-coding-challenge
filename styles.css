@@ -1,0 +1,39 @@
+body {
+  font-size: 0;
+  margin: 0;
+  text-align: center;
+  background-color: blue;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  height: 100vh;
+  display: flex;
+}
+
+.box {
+  width: 30vw;
+  border-radius: 3%;
+  background-color: white;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+
+.box img {
+  border-radius: 3%;
+  margin: 5%;
+  width: 90%;
+}
+
+h2 {
+  font-weight: 700;
+  display: inline-block;
+  margin: 5% 10% 0 10%;
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 10%;
+}
